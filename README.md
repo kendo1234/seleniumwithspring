@@ -5,4 +5,4 @@ Using Spring annotations to wire together a selenium suite. Taken from this tuto
 ## Usage
 
 ```bash
-mvn clean install -Dcucumber.glue="com.swtestacademy.springbootselenium.cucumber.steps" -Dcucumber.plugin="com/swtestacademy/springbootselenium/cucumber/features"
+mvn clean install -Dcucumber.glue="org.example.seleniumcucumberspring.cucumber.steps" -Dcucumber.plugin="com/swtestacademy/springbootselenium/cucumber/features"
